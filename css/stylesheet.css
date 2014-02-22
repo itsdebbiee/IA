@@ -53,14 +53,16 @@ html, body {
 }
 
 .navbar img{
-    height: 75px;
+
+    height: 100px;
     margin: 10px;
 
 }
 
-#navigation{
-    color:yellow;
+#userPathWay{
+    color:#d1be94;
     display: inline-block;
+    background: #0027Af;
 }
 .item active{
     width: 100px;
@@ -83,5 +85,3 @@ html, body {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
-
