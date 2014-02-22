@@ -1,6 +1,22 @@
+<<<<<<< HEAD
 
 
 
 body {
 	padding-top: 100px;
+=======
+.navbar{
+    background: #0027Af;
+    padding: 10px;
+    height: 100px;
+}
+.navbar img{
+    height: 100px;
+    
+}
+
+#navigation{
+    color:yellow;
+    
+>>>>>>> 00bb1a43c1136505595aafe1ecae1f1a191e4691
 }
