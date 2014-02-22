@@ -1,15 +1,29 @@
-<<<<<<< HEAD
+/*
+TABLE OF CONTENTS
+
+1. General
+2. Navigation
+3.
+*/
 
 
+/*
+1. General 
+================================= */
 
 body {
-	padding-top: 100px;
-=======
+	padding-top: 130px;
+}
+
+/* 
+2. Navigation 
+================================= */
 .navbar{
     background: #0027Af;
     padding: 10px;
     height: 100px;
 }
+
 .navbar img{
     height: 100px;
     
@@ -17,6 +31,3 @@ body {
 
 #navigation{
     color:yellow;
-    
->>>>>>> 00bb1a43c1136505595aafe1ecae1f1a191e4691
-}
