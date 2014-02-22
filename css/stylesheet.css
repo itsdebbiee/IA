@@ -41,3 +41,8 @@ body {
 
 #navigation{
     color:yellow;
+    display: inline-block;
+}
+.item active{
+    width: 10px;
+}
