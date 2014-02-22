@@ -62,11 +62,11 @@ html, body {
 >>>>>>> aa6b7bb0747790f696b39fdf549368ccbcb87afd
 }
 
-/*#navigation{
+#navigation{
     color:yellow;
     display: inline-block;
 }
 .item active{
     width: 100px;
     border: 10px dashed yellow;
-}*/
+}
