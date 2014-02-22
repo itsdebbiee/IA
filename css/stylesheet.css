@@ -71,6 +71,8 @@ html, body {
 #main-nav ul {
 	list-style-type: none;
 	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding:0;
 	float: right;
 	color: #fff;
@@ -78,6 +80,8 @@ html, body {
 
 #main-nav ul li {
 	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
