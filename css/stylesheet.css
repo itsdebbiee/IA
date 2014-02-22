@@ -53,32 +53,21 @@ html, body {
 }
 
 .navbar img{
+<<<<<<< HEAD
     height: 75px;
+    
+=======
+    height: 100px;
     margin: 10px;
-
+>>>>>>> aa6b7bb0747790f696b39fdf549368ccbcb87afd
 }
 
 #userPathWay{
-    color:yellow;
+    color:#d1be94;
     display: inline-block;
     background: #0027Af;
 }
 .item active{
     width: 100px;
     border: 10px dashed yellow;
-
 }
-
-#main-nav ul {
-	list-style-type: none;
-	margin-top: 80px;
-	padding:0;
-	float: right;
-	color: #fff;
-}
-
-#main-nav ul li {
-	display: inline;
-}
-
-
