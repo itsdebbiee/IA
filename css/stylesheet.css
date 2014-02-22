@@ -53,13 +53,9 @@ html, body {
 }
 
 .navbar img{
-<<<<<<< HEAD
     height: 75px;
-    
-=======
-    height: 100px;
     margin: 10px;
->>>>>>> aa6b7bb0747790f696b39fdf549368ccbcb87afd
+
 }
 
 #navigation{
@@ -69,8 +65,7 @@ html, body {
 .item active{
     width: 100px;
     border: 10px dashed yellow;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 
 #main-nav ul {
@@ -84,9 +79,5 @@ html, body {
 #main-nav ul li {
 	display: inline;
 }
-=======
-}*/
->>>>>>> 5fac46b8146b7f06b5a12ba5a7b5430d9326aa4a
-=======
-}
->>>>>>> 56e87ffeee2823925aa16476d16f5ea90253c2f5
+
+
