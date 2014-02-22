@@ -44,5 +44,6 @@ html, body {
     display: inline-block;
 }
 .item active{
-    width: 10px;
+    width: 100px;
+    border: 10px dashed yellow;
 }
