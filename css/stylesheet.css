@@ -12,7 +12,7 @@ TABLE OF CONTENTS
 ================================= */
 
 body {
-	padding-top: 130px;
+    padding-top: 130px;
 }
 
 .container {
@@ -27,6 +27,11 @@ body {
     background: #0027Af;
     padding: 10px;
     height: 100px;
+    width: 940px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .navbar img{
