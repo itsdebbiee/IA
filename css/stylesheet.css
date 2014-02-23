@@ -315,4 +315,19 @@ body:before {
 	width: 38px;
 }
 
+/*
+Sub pages 
+*/
 
+.sub-header {
+    border-top: 1px solid #b43133;
+    margin: 0 0 17px;
+    padding: 0 0 0 0;
+    height: 105px;
+    background: #900;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #990000),color-stop(1, #611306));
+    background-image: -moz-linear-gradient(center top,#990000 0%,#611306 100%);
+    background-image: -o-linear-gradient(top,#990000,#611306);
+    display: block;
+    position: relative;
+}
