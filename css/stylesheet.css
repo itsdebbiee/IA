@@ -45,6 +45,8 @@ a:hover {
 
 .inline {
 	display: inline-block;
+        margin-left: 10px;
+        margin-right: 20px;
 }
 
 .relative {
@@ -186,6 +188,7 @@ a:hover {
 .form-group, .form-control {
 	border-radius: 0;
 	height: 30px;
+        display:inline-block;
 }
 
 .navbar-form button {
