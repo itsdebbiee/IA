@@ -50,9 +50,11 @@ html, body {
 }
 
 #userPathWay{
+    font-size: 20px;
     color:#d1be94;
     display: inline-block;
     background: #0027Af;
+    width: 100px;
 }
 .item active{
     width: 100px;
