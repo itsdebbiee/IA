@@ -58,6 +58,10 @@ a:hover {
     src: url(bodoni.ttf);
 }
 
+.glyphicon-search {
+    margin-left: -4px;
+}
+
 /* 
 2. Navigation 
 ================================= */
@@ -201,7 +205,7 @@ a:hover {
     display:inline-block;
 }
 
-.navbar-form button {
+.navbar-form .btn {
 	height: 30px;
 	width: 30px;
 }
@@ -366,5 +370,30 @@ header img {
     font-family: Lato;
     text-transform: uppercase;
     font-weight: 300;
+
+}
+
+.navbar-form-sub {
+    padding-top:0px;
+    margin-top: 6px;
+}
+
+.navbar-form .btn-sub {
+    height: 25px;
+    width: 20px;
+}
+
+.navbar-form-sub .glyphicon-search {
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.navbar-form-sub .form-control {
+    height: 25px;
+    width: 160px;
+}
+
+.navbar-form-sub .btn-default {
+    margin-top: -6px;    
 
 }
