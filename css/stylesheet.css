@@ -50,10 +50,22 @@ html, body {
 }
 
 #userPathWay{
-    color:#d1be94;
+    font-size: 15px;
+    color:white;/*#d1be94;*/
     display: inline-block;
     background: #0027Af;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
 }
+
+#userPathWay ul li
+{
+    text-align: left;
+    border: 1px dashed black;
+    list-style-type: none; 
+}
+    
 .item active{
     width: 100px;
     border: 10px dashed yellow;
