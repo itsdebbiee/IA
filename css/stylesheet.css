@@ -71,7 +71,60 @@ a:hover {
     margin: 10px;
 
 }
+/*Drop down menu for navigation bar*/
+#dropDownMenu {
+	margin: 0;
+	padding: 0;
+	height: 1em;
+        }
+#dropDownMenu li {
+	list-style: none;
+	float: left;
+        }
+#dropDownMenu li a:hover{
+    background-color: #0027Af;
+}
+#dropDownMenu li ul li{
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    
+    
+}
+#dropDownMenu li ul li:hover{
+    background:#B00000;
+}
 
+#dropDownMenu li a {
+	display: block;
+	padding: 3px 8px;
+	background-color: #0027Af;
+	color: #fff;
+	text-decoration: none;
+        }
+#dropDownMenu li ul {
+	display: none; 
+	width: 10em; /* Width to help Opera out */
+	background-color: #0027Af;
+        }
+#dropDownMenu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+        }
+#dropDownMenu li:hover li {
+	float: none;
+        }
+#dropDownMenu li:hover li a {
+	background-color: #0027Af;
+	border-bottom: 1px solid #fff;
+	color: #000;
+        }
+#dropDownMenu li li a:hover {
+	background-color: #0027Af;
+        }
+/************************************/
 #userPathWay{
     font-size: 20px;
     color:white;/*#d1be94;*/
@@ -101,12 +154,16 @@ a:hover {
     background:#B00000; 
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> eba33fcc1aa38b57960662dfe7c6c2fda82c5c6b
 #userPathWay a{
     display:block;
     text-decoration:none;
 }
-/*Drop down menu for userpath way*/
 
+/*
 #userPathWay li:hover ul {
 	display: block;
 	position: absolute;
@@ -123,9 +180,15 @@ a:hover {
         
 #userPathWay li ul {
 	display: none; 
+<<<<<<< HEAD
 	width: 10em; /* Width to help Opera out */
 	background-color: #69f;}
 /* ******************************** */
+=======
+	width: 10em; /* Width to help Opera out *
+	background-color: #69f;}*/
+/**********************************/
+>>>>>>> eba33fcc1aa38b57960662dfe7c6c2fda82c5c6b
     
 .item active{
     width: 100px;
