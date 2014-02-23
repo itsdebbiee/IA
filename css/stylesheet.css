@@ -160,26 +160,7 @@ a:hover {
     text-decoration:none;
 }
 
-/*
-#userPathWay li:hover ul {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0; }
-#userPathWay li:hover li {
-	float: none; }
-#userPathWay li:hover li a {
-	background-color: #69f;
-	border-bottom: 1px solid #fff;
-	color: #000; }
-#userPathWay li li a:hover {
-	background-color: #8db3ff; }
-        
-#userPathWay li ul {
-	display: none; 
-	width: 10em; /* Width to help Opera out *
-	background-color: #69f;}*/
-/**********************************/
+
     
 .item active{
     width: 100px;
@@ -189,7 +170,7 @@ a:hover {
 
 #main-nav ul {
 	list-style-type: none;
-	margin-top: -35px;
+	margin-top: 80px;
 	margin-left: 20px;
 	margin-right: 20px;
 	padding:0;
@@ -213,70 +194,8 @@ a:hover {
 	width: 30px;
 }
 
-#ThreeSlopes {
-    overflow: auto;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 5px;
-    padding: 10px;
-}
-#ThreeSlopes h4{
-    color: #FFFFFF;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    margin: 0px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-}
-#ThreeSlopes p{
-    color: #AED8E8;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    margin: 0px;
-}
-#ThreeSlopes a{
-    color: #FFFFFF;
-    font-size: 12px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-#ThreeSlopes a:hover{
-    color: #FFB124;
-    text-decoration: none;
-}
-#SlopeOne {
-    
-    float: left;
-    background-image: url(images/slope-top.gif);
-    background-color: #2E7D9A;
-    background-repeat: no-repeat;
-    width: 32.5%;
-    height: 160px;
 
-}
-#SlopeTwo {
-    float: left;
-    
-    margin-right: 10px;
-    margin-left: 10px;
-    background-image: url(images/slope-top.gif);
-    background-color: #2E7D9A;
-    background-repeat: no-repeat;
-    width: 32.5%;
-    height: 160px;
-}
-#SlopeThree {
-    float: left;
-    
-    background-image: url(images/slope-top.gif);
-    background-color: #2E7D9A;
-    background-repeat: no-repeat;
-    width: 32.3%;
-    height: 160px;
-}
+/* 
+Footer
+================================= */
 
