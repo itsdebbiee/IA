@@ -26,7 +26,18 @@ html, body {
 	width: 940px;
 }
 
+a {
+	color: #fff;
+}
 
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.right {
+	float: right;
+}
 
 /* 
 2. Navigation 
@@ -98,3 +109,6 @@ html, body {
 	width: 30px;
 }
 
+.dropdown-menu {
+	margin:0px;
+}
