@@ -197,6 +197,7 @@ a:hover {
 #ThreeSlopes {
     overflow: auto;
     padding: 10px;
+
 }
 #ThreeSlopes h4{
     color: #FFFFFF;
@@ -227,6 +228,7 @@ a:hover {
     text-decoration: none;
 }
 #SlopeOne {
+    margin-left: 4px;
     float: left;
     background-color: #2E7D9A;
     background-repeat: no-repeat;
