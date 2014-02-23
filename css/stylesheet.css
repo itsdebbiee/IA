@@ -91,8 +91,6 @@ a:hover {
     margin: 0px;
     display: block;
     border-bottom:  1px solid black;
-    
-    
 }
 #dropDownMenu li ul li:hover{
     background:#B00000;
@@ -251,18 +249,17 @@ a:hover {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 20px;
     background-repeat: no-repeat;
     width: 32.5%;
-    height: 160px;
-    border: solid;
 }
 #SlopeThree {
     float: left;
+    margin-top: 20px;
     background-repeat: no-repeat;
     width: 32%;
-    height: 160px;
-    border: solid;
 }
+
 
 
 /*
@@ -319,6 +316,7 @@ body:before {
 Sub pages 
 */
 
+
 .sub-header {
     border-top: 1px solid #b43133;
     margin: 0 0 17px;
@@ -331,3 +329,4 @@ Sub pages
     display: block;
     position: relative;
 }
+
