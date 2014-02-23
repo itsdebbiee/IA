@@ -137,6 +137,7 @@ a:hover {
     margin: 0px;
     list-style:none;
     font-weight:bold;
+    background-color: #337AF5;
 }
 #userPathWay ul{
     padding: 0px;
@@ -231,13 +232,12 @@ a:hover {
     text-decoration: none;
 }
 #SlopeOne {
-    border: solid;
+
     margin-left: 5px;
     float: left;
     background-repeat: no-repeat;
     width: 32.5%;
-    height: 160px;
-
+    
 }
 #SlopeTwo {
     float: left;
