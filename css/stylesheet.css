@@ -15,18 +15,41 @@ body {
   padding-top: 150px;
 }
 
+
+
 html, body {
   margin:0;
   height: 100%;
+  background-color: #F5F5F5;
 }
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 940px;
+	position: relative;
 }
 
+a {
+	color: #fff;
+}
 
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.right {
+	float: right;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.relative {
+	position: relative;
+}
 
 /* 
 2. Navigation 
@@ -48,22 +71,93 @@ html, body {
     margin: 10px;
 
 }
+/*Drop down menu for navigation bar*/
+#dropDownMenu {
+	margin: 0;
+	padding: 0;
+	height: 1em;
+        }
+#dropDownMenu li {
+	list-style: none;
+	float: left;
+        }
+#dropDownMenu li a:hover{
+    background-color: #0027Af;
+}
+#dropDownMenu li ul li{
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    
+    
+}
+#dropDownMenu li ul li:hover{
+    background:#B00000;
+}
 
+#dropDownMenu li a {
+	display: block;
+	padding: 3px 8px;
+	background-color: #0027Af;
+	color: #fff;
+	text-decoration: none;
+        }
+#dropDownMenu li ul {
+	display: none; 
+	width: 10em; /* Width to help Opera out */
+	background-color: #0027Af;
+        }
+#dropDownMenu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+        }
+#dropDownMenu li:hover li {
+	float: none;
+        }
+#dropDownMenu li:hover li a {
+	background-color: #0027Af;
+	border-bottom: 1px solid #fff;
+	color: #000;
+        }
+#dropDownMenu li li a:hover {
+	background-color: #0027Af;
+        }
+/************************************/
 #userPathWay{
-    font-size: 15px;
+    font-size: 20px;
     color:white;/*#d1be94;*/
     display: inline-block;
     background: #0027Af;
     width: 250px;
     padding: 0px;
     margin: 0px;
+    list-style:none;
+    font-weight:bold;
 }
-
+#userPathWay ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
 #userPathWay ul li
 {
     text-align: left;
-    border: 1px dashed black;
-    list-style-type: none; 
+    border-bottom:1px solid black; 
+    border-top: 1px solid black;  
+    list-style-type: none;
+    padding: 20px;
+    
+}
+#userPathWay ul li:hover{
+    background:#B00000; 
+}
+
+
+#userPathWay a{
+    display:block;
+    text-decoration:none;
 }
     
 .item active{
@@ -98,6 +192,7 @@ html, body {
 	width: 30px;
 }
 
+<<<<<<< HEAD
 #ThreeSlopes {
     overflow: auto;
     margin-top: 0px;
