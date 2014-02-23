@@ -3,7 +3,7 @@
   var theTimer = 0;
   var theElement = null;
     var theLastPosition = {x:0,y:0};
-  $('[data-toggle]')
+  $("#dropDownMenu")
     .closest('li')
     .on('mouseenter', function (inEvent) {
     if (theElement) theElement.removeClass('open');

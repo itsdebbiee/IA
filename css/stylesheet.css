@@ -90,6 +90,7 @@ a:hover {
     padding: 10px;
     margin: 0px;
     display: block;
+    border-bottom:  1px solid black;
     
     
 }
@@ -126,6 +127,13 @@ a:hover {
 #dropDownMenu li li a:hover {
 	background-color: #0027Af;
         }
+
+.top-nav {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+
 /************************************/
 #userPathWay{
     font-size: 20px;
@@ -253,3 +261,58 @@ a:hover {
     background-repeat: no-repeat;
     width: 32%;
 }
+
+
+
+/*
+Footer
+================================= */
+
+
+#wrap {
+	min-height: 100%;
+	margin-bottom: 50px;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 180px; /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear:both;
+  left:0px;
+  bottom: 0px;
+  background: #000;
+} 
+
+/*Opera Fix thanks to Maleika (Kohoutec)*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+.footer-img {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+}
+
+.footer-img:hover {
+	opacity: 0.8;
+}
+
+.fb {
+	height: 38px;
+	width: 38px;
+}
+
+
+
