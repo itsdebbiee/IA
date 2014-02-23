@@ -147,27 +147,6 @@ a:hover {
     display:block;
     text-decoration:none;
 }
-
-/*
-#userPathWay li:hover ul {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0; }
-#userPathWay li:hover li {
-	float: none; }
-#userPathWay li:hover li a {
-	background-color: #69f;
-	border-bottom: 1px solid #fff;
-	color: #000; }
-#userPathWay li li a:hover {
-	background-color: #8db3ff; }
-        
-#userPathWay li ul {
-	display: none; 
-	width: 10em; /* Width to help Opera out *
-	background-color: #69f;}*/
-/**********************************/
     
 .item active{
     width: 100px;
