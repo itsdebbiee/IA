@@ -127,6 +127,13 @@ a:hover {
 #dropDownMenu li li a:hover {
 	background-color: #0027Af;
         }
+
+.top-nav {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+
 /************************************/
 #userPathWay{
     font-size: 20px;
@@ -260,7 +267,8 @@ a:hover {
 
 /*
 Footer
-*/
+================================= */
+
 
 #wrap {
 	min-height: 100%;
