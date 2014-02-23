@@ -61,21 +61,60 @@ a:hover {
 }
 
 #userPathWay{
-    font-size: 15px;
+    font-size: 20px;
     color:white;/*#d1be94;*/
     display: inline-block;
     background: #0027Af;
     width: 250px;
     padding: 0px;
     margin: 0px;
+    list-style:none;
+    font-weight:bold;
 }
-
+#userPathWay ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
 #userPathWay ul li
 {
     text-align: left;
-    border: 1px dashed black;
-    list-style-type: none; 
+    border-bottom:1px solid black; 
+    border-top: 1px solid black;  
+    list-style-type: none;
+    padding: 20px;
+    
 }
+#userPathWay ul li:hover{
+    background:#B00000; 
+}
+
+/************/
+#userPathWay a{
+    display:block;
+    text-decoration:none;
+}
+/*Drop down menu for userpath way*/
+
+#userPathWay li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; }
+#userPathWay li:hover li {
+	float: none; }
+#userPathWay li:hover li a {
+	background-color: #69f;
+	border-bottom: 1px solid #fff;
+	color: #000; }
+#userPathWay li li a:hover {
+	background-color: #8db3ff; }
+        
+#userPathWay li ul {
+	display: none; 
+	width: 10em; /* Width to help Opera out */
+	background-color: #69f;}
+/**********************************/
     
 .item active{
     width: 100px;
