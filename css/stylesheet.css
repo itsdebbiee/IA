@@ -341,7 +341,7 @@ header img {
 
 .sub-header {
     border-top: 1px solid #0027Af;
-    margin: 0 0 17px;
+    margin: 0 0 0;
     padding: 0 0 0 0;
     height: 120px;
     background: #0027Af;
@@ -351,6 +351,17 @@ header img {
     display: block;
     position: relative;
 }
+
+
+.img-slider{
+    width: 100%;
+}
+
+#carousel-example-generic img{
+    width: 100%;
+    height: 400px;
+}
+
 
 .navbar-sub {
     height: 39px;
@@ -373,6 +384,7 @@ header img {
 
 }
 
+<<<<<<< HEAD
 .navbar-form-sub {
     padding-top:0px;
     margin-top: 6px;
@@ -397,3 +409,5 @@ header img {
     margin-top: -6px;    
 
 }
+=======
+>>>>>>> 8cf0d76873a5eb8f62e7ca9ce28a6deaa5b03eba
