@@ -11,7 +11,7 @@ TABLE OF CONTENTS
 1. General 
 ================================= */
 
-body {
+.home {
   padding-top: 150px;
 }
 
@@ -318,14 +318,14 @@ Sub pages
 
 
 .sub-header {
-    border-top: 1px solid #b43133;
+    border-top: 1px solid #0027Af;
     margin: 0 0 17px;
     padding: 0 0 0 0;
     height: 105px;
-    background: #900;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #990000),color-stop(1, #611306));
-    background-image: -moz-linear-gradient(center top,#990000 0%,#611306 100%);
-    background-image: -o-linear-gradient(top,#990000,#611306);
+    background: #0027Af;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#611306);
     display: block;
     position: relative;
 }
