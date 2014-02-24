@@ -1121,13 +1121,6 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333%;
-<<<<<<< HEAD
-    /*border-right: 2px solid #d1be94;*/
-    margin-top: 5px;
-=======
-    /*border-right: 2px solid red;*/
-
->>>>>>> 08b1617ae6d9c6aa4d782fd3303a1f4527d8e6f0
     height: 180px;
     color : #fff;
   }
@@ -5841,9 +5834,7 @@ button.close {
   list-style: square;
 }
 
-.row img{
-  padding-bottom: 40px;
-}
+
 .special a{
   color:black;
 }
