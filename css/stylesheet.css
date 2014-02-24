@@ -15,8 +15,6 @@ TABLE OF CONTENTS
   padding-top: 150px;
 }
 
-
-
 html, body {
   margin:0;
   height: 100%;
@@ -362,7 +360,7 @@ header img {
 
 .sub-header {
     border-top: 1px solid #0027Af;
-    margin: 0 0 0;
+    margin: 0 0 10px;
     padding: 0 0 0 0;
     height: 120px;
     background: #0027Af;
@@ -373,7 +371,6 @@ header img {
     position: relative;
 }
 
-
 .img-slider{
     width: 100%;
 }
@@ -383,29 +380,35 @@ header img {
     height: 400px;
 }
 
-
-.navbar-sub {
+.navbar-sub, .navbar-sub1 {
     height: 39px;
     line-height: 35px;
 }
 
-.navbar-sub ul{
+.navbar-sub ul, .navbar-sub1 ul{
     position: relative;
     list-style-type: none;
     border-top: 2px solid #B80000 ;
     margin-top: 10px;
 }
 
-.navbar-sub ul li {
+.navbar-sub ul li{
     margin-left: 20px;
     display: inline;
     color: white;
     font-family: Lato;
     text-transform: uppercase;
     font-weight: 300;
-
 }
 
+.navbar-sub1 ul li {
+    margin-left: 40px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+}
 
 .navbar-form-sub {
     padding-top:0px;
