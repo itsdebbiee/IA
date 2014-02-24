@@ -529,3 +529,45 @@ body h4 a:hover {
 .space p {
     font-style: italic;
 }
+
+footer {
+clear: both;
+margin: 0 auto;
+padding: 17px 0;
+background: black;
+
+border-top: 4px solid #edebdc;
+color: #fff;
+font: normal normal 14px/150% Arial, sans-serif;
+font-size: 1.4rem;
+overflow: auto;
+}
+footer, nav {
+display: block;
+}
+
+footer .col+.col {
+margin: 24px 0 0 7px;
+padding: 8px 0 8px 7px;
+border-left: 1px solid #fff;
+border-color: rgba(255,255,255,.3);
+}
+
+footer .col {
+width: 467px;
+float: left;
+}
+
+footer a{
+    color:blue;
+}
+
+.pagewidth {
+margin: 0 auto;
+padding: 0 160px;
+position: relative;
+}
+
+.social-media{
+    float:left;
+}
