@@ -476,3 +476,20 @@ body h4, body h5 {
     font-family: Lato;
     font-weight: 300;
 }
+
+body h4 a {
+    color: #000;
+    text-decoration: underline;
+}
+
+body h4 a:hover {
+    color: #625D5D;
+}
+
+.headline-content {
+    padding-top: 15px;
+}
+
+#ThreeSlopes h4 {
+    font-family: Bodoni, Georgia, serif;
+}
