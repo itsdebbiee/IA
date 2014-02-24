@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   $(".headlines").click(function(e) {
     e.preventDefault();
 
@@ -6,4 +6,4 @@ $(document).ready(function() {
     $(".headline-content").fadeIn('fast');
 
   });
-});
+});*/
