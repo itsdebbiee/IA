@@ -10,7 +10,6 @@ TABLE OF CONTENTS
 /*
 1. General 
 ================================= */
-
 .home {
   padding-top: 150px;
 }
@@ -56,8 +55,21 @@ a:hover {
     src: url(bodoni.ttf);
 }
 
+p {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+}
+
 .glyphicon-search {
     margin-left: -4px;
+}
+
+.none {
+    display:none;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* 
@@ -72,6 +84,10 @@ a:hover {
 	-webkit-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
 	-moz-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
 	-o-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
+    background: #0027Af;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
 }
 
 .navbar img{
@@ -80,25 +96,33 @@ a:hover {
     margin: 10px;
 
 }
+
 /*Drop down menu for navigation bar*/
+
 #dropDownMenu {
 	margin: 0;
 	padding: 0;
 	height: 1em;
-        }
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+}
+
 #dropDownMenu li {
 	list-style: none;
 	float: left;
-        }
+}
+
 #dropDownMenu li a:hover{
     background-color: #0027Af;
 }
+
 #dropDownMenu li ul li{
     padding: 10px;
     margin: 0px;
     display: block;
     border-bottom:  1px solid black;
 }
+
 #dropDownMenu li ul li:hover{
     background:#B00000;
 }
@@ -106,7 +130,6 @@ a:hover {
 #dropDownMenu li a {
 	display: block;
 	padding: 3px 8px;
-	background-color: #0027Af;
 	color: #fff;
 	text-decoration: none;
         }
@@ -138,44 +161,49 @@ a:hover {
 	font-size: 11px;
 }
 
-#userPathWay{
+#userPathWay {
     font-size: 20px;
     color:white;/*#d1be94;*/
     display: inline-block;
     background: #0027Af;
-    width: 250px;
+    width: 235px;
     padding: 0px;
     margin: 0px;
     list-style:none;
     font-weight:bold;
-    background-color: #337AF5;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
 }
-#userPathWay ul{
+
+#userPathWay ul {
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
 }
-#userPathWay ul li
-{
+
+#userPathWay ul li {
     text-align: left;
-    border-bottom:1px solid black; 
     border-top: 1px solid black;  
     list-style-type: none;
     padding: 20px;
-    
+    background: #0027Af;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(0.6, #001661));
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
 }
+
 #userPathWay ul li:hover{
     background:#B00000; 
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #B00000),color-stop(1, #611306));
+    background-image: -moz-linear-gradient(center top,#B00000 0%,#611306 100%);
+    background-image: -o-linear-gradient(top,#B00000,#611306);
 }
 
-
-#userPathWay a{
+#userPathWay a {
     display:block;
     text-decoration:none;
 }
-
-    
-.item active{
+ 
+.item active {
     width: 100px;
     border: 10px dashed yellow;
 
@@ -365,8 +393,8 @@ header img {
     height: 120px;
     background: #0027Af;
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
-    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
-    background-image: -o-linear-gradient(top,#0027Af,#611306);
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
     display: block;
     position: relative;
 }
@@ -380,12 +408,16 @@ header img {
     height: 400px;
 }
 
-.navbar-sub, .navbar-sub1 {
+.carousel-home-height {
+    height: 345px;
+}
+
+.navbar-sub, .navbar-sub1, .navbar-sub2 {
     height: 39px;
     line-height: 35px;
 }
 
-.navbar-sub ul, .navbar-sub1 ul{
+.navbar-sub ul, .navbar-sub1 ul, .navbar-sub2 ul{
     position: relative;
     list-style-type: none;
     border-top: 2px solid #B80000 ;
@@ -410,6 +442,16 @@ header img {
     font-weight: 300;
 }
 
+.navbar-sub2 ul li {
+    margin-right: 10px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 .navbar-form-sub {
     padding-top:0px;
     margin-top: -3px;
@@ -432,6 +474,137 @@ header img {
 
 .navbar-form-sub .btn-default {
     margin-top: 6px;    
-
 }
 
+body h1 {
+    font-family: Bodoni, Georgia, serif;
+}
+
+body h4, body h5 {
+    font-family: Lato;
+    font-weight: 300;
+}
+
+body h4 a {
+    color: #000;
+    text-decoration: underline;
+}
+
+body h4 a:hover {
+    color: #625D5D;
+}
+
+/* Research Page */
+
+.headline-content {
+    padding-top: 15px;
+}
+
+#ThreeSlopes h4 {
+    font-family: Bodoni, Georgia, serif;
+}
+
+.headline-thumb {
+    height: 110px;
+    width: 110px;
+    border: 1px solid #625D5D;
+    float: left;
+    margin-right: 10px;
+}
+
+.space {
+    padding-bottom: 10px;
+    display: block;    
+    float: left;
+}
+
+.space a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.space a:hover {
+    color: #625D5D;
+}
+
+.space h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.space p {
+    font-style: italic;
+}
+
+<<<<<<< HEAD
+footer {
+clear: both;
+margin: 0 auto;
+padding: 17px 0;
+background: black;
+
+border-top: 4px solid #edebdc;
+color: #fff;
+font: normal normal 14px/150% Arial, sans-serif;
+font-size: 1.4rem;
+overflow: auto;
+}
+footer, nav {
+display: block;
+}
+
+footer .col+.col {
+margin: 24px 0 0 7px;
+padding: 8px 0 8px 7px;
+border-left: 1px solid #fff;
+border-color: rgba(255,255,255,.3);
+}
+
+footer .col {
+width: 467px;
+float: left;
+}
+
+footer a{
+    color:blue;
+}
+
+.pagewidth {
+margin: 0 auto;
+padding: 0 160px;
+position: relative;
+}
+
+.social-media{
+    float:left;
+}
+=======
+/* About page */
+#campus {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-caption {
+background-color: #E5E4E2;
+color: inherit;
+text-shadow: none;
+width: 100%;
+position: static;
+text-align: left;
+padding: 10px;
+
+@media (min-width: 992px)
+.image-caption.overlay {
+opacity: 0;
+filter: alpha(opacity=0);
+transition: all .3s linear;
+position: absolute;
+bottom: 0;
+left: 0;
+color: #fbfbf9;
+background-color: rgba(0,0,0,0.6);
+}
+
+
+>>>>>>> c2e4857625962f44db50a2e5076d52c434815303

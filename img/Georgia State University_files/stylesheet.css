@@ -1,0 +1,458 @@
+/*
+TABLE OF CONTENTS
+
+1. General
+2. Navigation
+3.
+*/
+
+
+/*
+1. General 
+================================= */
+.home {
+  padding-top: 150px;
+}
+
+html, body {
+  margin:0;
+  height: 100%;
+  background-color: #F5F5F5;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	position: relative;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.right {
+	float: right;
+}
+
+.inline {
+	display: inline-block;
+        margin-left: 10px;
+        margin-right: 20px;
+}
+
+.relative {
+	position: relative;
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(bodoni.ttf);
+}
+
+p {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.glyphicon-search {
+    margin-left: -4px;
+}
+
+/* 
+2. Navigation 
+================================= */
+.navbar{
+    background: #0027Af;
+    padding: 10px;
+    height: 130px;
+    border: none;
+    box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
+	-webkit-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
+	-moz-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
+	-o-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
+}
+
+.navbar img{
+
+    height: 100px;
+    margin: 10px;
+
+}
+/*Drop down menu for navigation bar*/
+#dropDownMenu {
+	margin: 0;
+	padding: 0;
+	height: 1em;
+        }
+#dropDownMenu li {
+	list-style: none;
+	float: left;
+        }
+#dropDownMenu li a:hover{
+    background-color: #0027Af;
+}
+#dropDownMenu li ul li{
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    border-bottom:  1px solid black;
+}
+#dropDownMenu li ul li:hover{
+    background:#B00000;
+}
+
+#dropDownMenu li a {
+	display: block;
+	padding: 3px 8px;
+	background-color: #0027Af;
+	color: #fff;
+	text-decoration: none;
+        }
+#dropDownMenu li ul {
+	display: none; 
+	width: 10em; /* Width to help Opera out */
+	background-color: #0027Af;
+        }
+#dropDownMenu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+        }
+#dropDownMenu li:hover li {
+	float: none;
+        }
+#dropDownMenu li:hover li a {
+	background-color: #0027Af;
+	border-bottom: 1px solid #fff;
+	color: #000;
+        }
+#dropDownMenu li li a:hover {
+	background-color: #0027Af;
+        }
+
+.top-nav {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#userPathWay{
+    font-size: 20px;
+    color:white;/*#d1be94;*/
+    display: inline-block;
+    background: #0027Af;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+    font-weight:bold;
+    background-color: #337AF5;
+}
+#userPathWay ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#userPathWay ul li
+{
+    text-align: left;
+    border-bottom:1px solid black; 
+    border-top: 1px solid black;  
+    list-style-type: none;
+    padding: 20px;
+    
+}
+#userPathWay ul li:hover{
+    background:#B00000; 
+}
+
+
+#userPathWay a{
+    display:block;
+    text-decoration:none;
+}
+
+    
+.item active{
+    width: 100px;
+    border: 10px dashed yellow;
+
+}
+
+#main-nav ul {
+	list-style-type: none;
+	margin-top: -35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding:0;
+	float: right;
+	color: #fff;
+}
+
+#main-nav ul li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form-group, .form-control {
+	border-radius: 0;
+	height: 30px;
+    display:inline-block;
+}
+
+.navbar-form .btn {
+	height: 30px;
+	width: 30px;
+}
+
+/*
+Home Content 
+================================= */
+
+#ThreeSlopes {
+    overflow: auto;
+    padding: 10px;
+
+}
+#ThreeSlopes h4{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#ThreeSlopes h5
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+}
+#ThreeSlopes p{
+    color: black;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+#ThreeSlopes img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#ThreeSlopes a{
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#ThreeSlopes a:hover{
+    color: #FFB124;
+    text-decoration: none;
+}
+#SlopeOne {
+
+    margin-left: 5px;
+    float: left;
+    background-repeat: no-repeat;
+    width: 32.5%;
+    
+}
+#SlopeTwo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    /*margin-top: 20px;*/
+    background-repeat: no-repeat;
+    width: 32.5%;
+}
+#SlopeThree {
+    float: left;
+    /*margin-top: 20px;*/
+    background-repeat: no-repeat;
+    width: 32%;
+}
+
+/*Button*/
+.button_properties{
+    display: block;
+    float: right;
+}
+/**/
+/*
+Footer
+================================= */
+
+
+#wrap {
+	min-height: 100%;
+	margin-bottom: 50px;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 180px; /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear:both;
+  left:0px;
+  bottom: 0px;
+  background: #000;
+} 
+
+/*Opera Fix thanks to Maleika (Kohoutec)*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+.footer-img {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+}
+
+.footer-img:hover {
+	opacity: 0.8;
+}
+
+.fb {
+	height: 38px;
+	width: 38px;
+}
+
+/*
+Sub pages 
+================================= */
+header h1 {
+    font-family: Bodoni, Georgia, serif;
+    color: #F5F5F5;
+    display: inline-block;
+}
+
+header img {
+    float:right;
+    height: 55px;
+    width: 190px;
+    display:inline-block;
+    margin-top: 15px;
+}
+
+.sub-header {
+    border-top: 1px solid #0027Af;
+    margin: 0 0 10px;
+    padding: 0 0 0 0;
+    height: 120px;
+    background: #0027Af;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#611306);
+    display: block;
+    position: relative;
+}
+
+.img-slider{
+    width: 100%;
+}
+
+#carousel-example-generic img{
+    width: 100%;
+    height: 400px;
+}
+
+.navbar-sub, .navbar-sub1, .navbar-sub2 {
+    height: 39px;
+    line-height: 35px;
+}
+
+.navbar-sub ul, .navbar-sub1 ul, .navbar-sub2 ul{
+    position: relative;
+    list-style-type: none;
+    border-top: 2px solid #B80000 ;
+    margin-top: 10px;
+}
+
+.navbar-sub ul li{
+    margin-left: 20px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.navbar-sub1 ul li {
+    margin-left: 40px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.navbar-sub2 ul li {
+    margin-right: 10px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.navbar-form-sub {
+    padding-top:0px;
+    margin-top: -3px;
+}
+
+.navbar-form .btn-sub {
+    height: 25px;
+    width: 20px;
+}
+
+.navbar-form-sub .glyphicon-search {
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.navbar-form-sub .form-control {
+    height: 25px;
+    width: 160px;
+}
+
+.navbar-form-sub .btn-default {
+    margin-top: 6px;    
+}
+
+body h1 {
+    font-family: Bodoni, Georgia, serif;
+}
+
+body h4, body h5 {
+    font-family: Lato;
+    font-weight: 300;
+}
