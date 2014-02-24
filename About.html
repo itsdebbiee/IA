@@ -34,7 +34,7 @@
 		<a href="index.html"><img src="img/newlogo.png" alt="Home logo"/></a>
 		<nav class="navbar-sub1">
 			<ul>
-				<li><a href="#">Overview</a></li>
+				<li><a class="current" href="about.html">Overview</a></li>
 				<li><a href="#">Administration</a></li>
 				<li><a href="#">Facts</a></li>
 				<li><a href="#">History</a></li>
@@ -60,9 +60,58 @@
 	<div id="main">
 		<!-- Start Container -->
 		<div class="container">
-			<h1>Overview</h4>
+			<h1>About Georgia State</h4>
 				<div class="row">
-					<div class="col-lg-7"></div>
+					<div class="col-lg-7">
+						<!-- Nav tabs -->
+						<ul id="tabs" class="nav nav-tabs">
+						  <li class="active"><a href="#overview" class="uppercase" data-toggle="tab">Overview</a></li>
+						  <li><a href="#schools" class="uppercase" data-toggle="tab">Colleges &amp; Schools</a></li>
+						  <li><a href="#fee" class="uppercase" data-toggle="tab">Tuition &amp; Fees</a></li>
+						  <li><a href="#contact" class="uppercase" data-toggle="tab">Contact</a></li>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+						  <div class="tab-pane active" id="overview">
+						  	<h4 class="uppercase">About Georgia State University</h4>
+						  	<p class="about-text">
+						  		<strong>An Enterprising Urban Research University</strong>
+
+								<p class="about-text">Georgia State University, an enterprising urban public research university, is a national leader in graduating students from widely diverse backgrounds.
+
+								Centered in the historic financial hub of downtown Atlanta, the university provides more than 32,000 students with unsurpassed connections to the city’s business, government, nonprofit and cultural organizations.
+
+								The university offers 55 undergraduate and graduate degree programs in more than 250 fields of study in its eight colleges and schools: the Andrew Young School of Policy Studies, the Byrdine F. Lewis School of Nursing and Health Professions, the College of Arts and Sciences, the College of Education, the College of Law, the Honors College, the Institute of Public Health and the J. Mack Robinson College of Business.</p>
+							</p>
+							<h4 class="uppercase">Overview</h4>
+						  	<img src="img/overview.png" alt="GSU Overview"/>
+						  </div>
+						  
+						  <div class="tab-pane" id="schools">
+						  	<h4 class="uppercase">Colleges &amp; Schools</h4>
+						  	<img src="img/colleges.png" alt="GSU Colleges and Schools"/>
+						  </div>
+						  
+						  <div class="tab-pane" id="fee">
+						  	<h4 class="uppercase">Resident</h4>
+						  	<img src="img/resident.png" alt="GSU Tuition"/>
+						  	<h4 class="uppercase">Nonresident</h4>
+						  	<img src="img/nonresident.png" alt="GSU Nonresident Tuition"/>
+						  	<h4 class="uppercase">Mandatory</h4>
+						  	<img src="img/mandatory.png" alt="GSU Mandatory Tuition"/>
+						  </div>
+						  
+						  <div class="tab-pane" id="contact">
+						  	<h4 class="uppercase">Frequently Requested Contacts</h4>
+						  	<img src="img/contact.png" alt="GSU Contact"/>
+						  	<h4 class="uppercase">Emergency Contacts</h4>
+						  	<img src="img/emergency.png" alt="GSU Emergency"/>
+						  </div>
+						</div>					
+					</div>
+
+					<!-- Col-Lg-5 -->
 					<div class="col-lg-5">
 						<img src="img/campus.jpg" id="campus" alt="GSU Campus"/>
 						<!--<div class="image-caption overlay">
@@ -98,7 +147,7 @@
 							<p class="right see-more">See More&rarr;</p>
 						</div>
 
-					</div>
+					</div><!-- End Col-Lg-5 -->
 
 				</div><!-- End Row-->
 
