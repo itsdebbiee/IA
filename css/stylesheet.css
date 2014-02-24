@@ -14,10 +14,6 @@ TABLE OF CONTENTS
   padding-top: 150px;
 }
 
-.small {
-    font-size: 12px;
-}
-
 html, body {
   margin:0;
   height: 100%;
@@ -57,10 +53,6 @@ a:hover {
 @font-face {
     font-family: Bodoni;
     src: url(bodoni.ttf);
-}
-
-.bodoni {
-    font-family: Bodoni;
 }
 
 p {
@@ -118,14 +110,15 @@ p {
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
     z-index: 30;
-    margin-right: 20px;
 }
 
 #dropDownMenu li {
 	list-style: none;
 	float: left;
 }
-
+#last li{
+  margin-right: 20px;
+}
 #dropDownMenu li a:hover{
     background-color: #0027Af;
 }
@@ -232,7 +225,7 @@ p {
 	list-style-type: none;
 	margin-top: -35px;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 100px;
 	padding:0;
 	float: right;
 	color: #fff;
@@ -261,14 +254,9 @@ Home Content
 
 #ThreeSlopes {
     overflow: auto;
-    padding-top: 10px;
+    padding: 10px;
 
 }
-
-#ThreeSlopes h2 {
-    margin-left: 10px;
-}
-
 #ThreeSlopes h4{
     color: black;
     font-size: 25px;
@@ -311,7 +299,7 @@ Home Content
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #ThreeSlopes a:hover{
-    color: #a8a8a8;
+    color: #FFB124;
     text-decoration: none;
 }
 #SlopeOne {
@@ -365,16 +353,16 @@ Footer
   clear:both;
   left:0px;
   bottom: 0px;
-  background: #000;
+  background-color: #000;
+
 } 
 
-/*Opera Fix thanks to Maleika (Kohoutec)*/
 body:before {
   content:"";
   height:100%;
   float:left;
   width:0;
-  margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+  margin-top:-32767px;
 }
 
 .footer-img {
@@ -434,15 +422,6 @@ header img {
 
 .carousel-home-height {
     height: 345px;
-}
-
-.caption-p {
-    bottom: 65px;
-    font-size: 20px;
-}
-
-.carousel-indicators {
-    bottom: 0px;
 }
 
 .navbar-sub #dropDownMenu ul li {
@@ -531,11 +510,6 @@ body h4 a:hover {
     color: #625D5D;
 }
 
-.home-pic {
-    width: 100%;
-    height: 100px;
-}
-
 /* Research Page */
 
 .headline-content {
@@ -577,8 +551,6 @@ body h4 a:hover {
 .space p {
     font-style: italic;
 }
-
-
 
 footer {
 clear: both;
@@ -634,6 +606,28 @@ position: relative;
 #campus {
     width: 100%;
     margin-bottom: 20px;
+}
+
+
+.image-caption {
+background-color: #E5E4E2;
+color: inherit;
+text-shadow: none;
+width: 100%;
+position: static;
+text-align: left;
+padding: 10px;
+
+@media (min-width: 992px)
+.image-caption.overlay {
+opacity: 0;
+filter: alpha(opacity=0);
+transition: all .3s linear;
+position: absolute;
+bottom: 0;
+left: 0;
+color: #fbfbf9;
+background-color: rgba(0,0,0,0.6);
 }
 
 .current {
