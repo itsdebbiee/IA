@@ -5782,4 +5782,33 @@ button.close {
     display: none !important;
   }
 }
+
+
+
+.two-column{
+  -webkit-column-count:2;
+  -webkit-column-gap:20px;
+  padding-bottom: 10px;
+  display: block;    
+  float: left;
+}
+.two-column a{
+  color: #000;
+}
+.two-column a:hover{
+  color: #625D5D;
+}
+.postcard-left h4{
+  font-size: 15px;
+  font-weight: bold;
+}
+.two-column li{
+  list-style: square;
+}
+
+.acadimgs{
+  float:left;
+  display: block;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
