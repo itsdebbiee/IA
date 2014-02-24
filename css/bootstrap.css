@@ -5820,6 +5820,7 @@ button.close {
   -webkit-column-count:2;
   -webkit-column-gap:20px;
   padding-bottom: 10px;
+  padding-left: 10px;
   display: block;    
   float: left;
 }
@@ -5837,9 +5838,14 @@ button.close {
   list-style: square;
 }
 
-.acadimgs{
-  float:left;
-  display: block;
+.row img{
+  padding-bottom: 40px;
 }
-
+.special a{
+  color:black;
+}
+.special h4{
+  font-size: 15px;
+    font-weight: bold;
+}
 /*# sourceMappingURL=bootstrap.css.map */
