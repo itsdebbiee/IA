@@ -362,7 +362,7 @@ Footer
 #footer {
   position: relative;
   margin-top: -180px; /* negative value of footer height */
-  height: 180px;
+  height: 190px;
   clear:both;
   left:0px;
   bottom: 0px;
