@@ -587,25 +587,6 @@ position: relative;
     margin-bottom: 20px;
 }
 
-.image-caption {
-background-color: #E5E4E2;
-color: inherit;
-text-shadow: none;
-width: 100%;
-position: static;
-text-align: left;
-padding: 10px;
-
-@media (min-width: 992px)
-.image-caption.overlay {
-opacity: 0;
-filter: alpha(opacity=0);
-transition: all .3s linear;
-position: absolute;
-bottom: 0;
-left: 0;
-color: #fbfbf9;
-background-color: rgba(0,0,0,0.6);
+.current {
+    text-decoration: underline;
 }
-
-
