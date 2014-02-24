@@ -9,7 +9,6 @@ lol k
 .see-more a {
   color: #000;
   text-decoration: underline;
-
 }
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -1116,7 +1115,6 @@ pre code {
   }
   .col-md-6 {
     width: 50%;
-    margin-top: 5px;
   }
   .col-md-5 {
     width: 41.66666667%;
@@ -1124,7 +1122,7 @@ pre code {
   .col-md-4 {
     width: 33.33333333%;
     /*border-right: 2px solid red;*/
-    margin-top: 5px;
+
     height: 180px;
     color : #fff;
   }

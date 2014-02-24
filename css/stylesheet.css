@@ -612,6 +612,10 @@ footer a{
     color:blue;
 }
 
+.footer-space {
+    margin-top: 10px;
+}
+
 .copy {
     font-size: 12px;
 }
@@ -639,7 +643,5 @@ position: relative;
 .current {
     text-decoration: underline;
 }
-.row{
-  margin-top: 5px;
-}
+
 
