@@ -380,12 +380,12 @@ header img {
     height: 400px;
 }
 
-.navbar-sub, .navbar-sub1 {
+.navbar-sub, .navbar-sub1, .navbar-sub2 {
     height: 39px;
     line-height: 35px;
 }
 
-.navbar-sub ul, .navbar-sub1 ul{
+.navbar-sub ul, .navbar-sub1 ul, .navbar-sub2 ul{
     position: relative;
     list-style-type: none;
     border-top: 2px solid #B80000 ;
@@ -408,6 +408,16 @@ header img {
     font-family: Lato;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.navbar-sub2 ul li {
+    margin-right: 10px;
+    display: inline;
+    color: white;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 .navbar-form-sub {
