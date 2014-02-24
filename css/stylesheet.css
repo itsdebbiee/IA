@@ -110,14 +110,15 @@ p {
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
     z-index: 30;
-    margin-right: 20px;
 }
 
 #dropDownMenu li {
 	list-style: none;
 	float: left;
 }
-
+#last li{
+  margin-right: 20px;
+}
 #dropDownMenu li a:hover{
     background-color: #0027Af;
 }
@@ -224,7 +225,7 @@ p {
 	list-style-type: none;
 	margin-top: -35px;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 100px;
 	padding:0;
 	float: right;
 	color: #fff;
@@ -352,7 +353,9 @@ Footer
   clear:both;
   left:0px;
   bottom: 0px;
-  background: #000;
+  background-color: #000;
+   background: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(68,68,68)), color-stop(0.97,
+		rgb(115,115,115)), color-stop(1, rgb(95,95,95)));
 } 
 
 /*Opera Fix thanks to Maleika (Kohoutec)*/
