@@ -442,6 +442,8 @@ header img {
 
 .navbar-form-sub .btn-default {
     margin-top: 6px;    
-
 }
 
+body h1 {
+    font-family: Bodoni, Georgia, serif;
+}
