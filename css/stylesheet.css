@@ -577,6 +577,10 @@ footer a{
     color:blue;
 }
 
+.copy {
+    font-size: 12px;
+}
+
 .pagewidth {
 margin: 0 auto;
 padding: 0 160px;
