@@ -1122,6 +1122,8 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333%;
+    border-right: 2px solid red;
+    height: 180px;
   }
   .col-md-3 {
     width: 25%;
