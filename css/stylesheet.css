@@ -72,6 +72,10 @@ p {
     text-transform: uppercase;
 }
 
+.right {
+    float:right;
+}
+
 /* 
 2. Navigation 
 ================================= */
