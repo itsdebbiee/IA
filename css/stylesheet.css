@@ -64,6 +64,10 @@ p {
     margin-left: -4px;
 }
 
+.none {
+    display:none;
+}
+
 /* 
 2. Navigation 
 ================================= */
@@ -492,4 +496,36 @@ body h4 a:hover {
 
 #ThreeSlopes h4 {
     font-family: Bodoni, Georgia, serif;
+}
+
+.headline-thumb {
+    height: 110px;
+    width: 110px;
+    border: 1px solid #625D5D;
+    float: left;
+    margin-right: 10px;
+}
+
+.space {
+    padding-bottom: 10px;
+    display: block;    
+    float: left;
+}
+
+.space a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.space a:hover {
+    color: #625D5D;
+}
+
+.space h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.space p {
+    font-style: italic;
 }
