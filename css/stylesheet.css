@@ -78,8 +78,8 @@ p {
 	-o-box-shadow: 6px 0 20px -4px #222 , -6px 0 20px -4px #222;
     background: #0027Af;
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
-    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
-    background-image: -o-linear-gradient(top,#0027Af,#611306);
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
 }
 
 .navbar img{
@@ -179,12 +179,15 @@ p {
     padding: 20px;
     background: #0027Af;
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(0.6, #001661));
-    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
-    background-image: -o-linear-gradient(top,#0027Af,#611306);
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
 }
 
 #userPathWay ul li:hover{
     background:#B00000; 
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #B00000),color-stop(1, #611306));
+    background-image: -moz-linear-gradient(center top,#B00000 0%,#611306 100%);
+    background-image: -o-linear-gradient(top,#B00000,#611306);
 }
 
 #userPathWay a {
@@ -382,8 +385,8 @@ header img {
     height: 120px;
     background: #0027Af;
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0027Af),color-stop(1, #001661));
-    background-image: -moz-linear-gradient(center top,#0027Af 0%,#611306 100%);
-    background-image: -o-linear-gradient(top,#0027Af,#611306);
+    background-image: -moz-linear-gradient(center top,#0027Af 0%,#001661 100%);
+    background-image: -o-linear-gradient(top,#0027Af,#001661);
     display: block;
     position: relative;
 }
