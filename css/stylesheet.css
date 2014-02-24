@@ -10,7 +10,6 @@ TABLE OF CONTENTS
 /*
 1. General 
 ================================= */
-
 .home {
   padding-top: 150px;
 }
@@ -54,6 +53,11 @@ a:hover {
 @font-face {
     font-family: Bodoni;
     src: url(bodoni.ttf);
+}
+
+p {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
 }
 
 .glyphicon-search {
@@ -446,4 +450,9 @@ header img {
 
 body h1 {
     font-family: Bodoni, Georgia, serif;
+}
+
+body h4, body h5 {
+    font-family: Lato;
+    font-weight: 300;
 }
