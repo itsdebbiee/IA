@@ -540,7 +540,6 @@ body h4 a:hover {
     font-style: italic;
 }
 
-<<<<<<< HEAD
 footer {
 clear: both;
 margin: 0 auto;
@@ -582,7 +581,6 @@ position: relative;
 .social-media{
     float:left;
 }
-=======
 /* About page */
 #campus {
     width: 100%;
@@ -609,6 +607,3 @@ left: 0;
 color: #fbfbf9;
 background-color: rgba(0,0,0,0.6);
 }
-
-
->>>>>>> c2e4857625962f44db50a2e5076d52c434815303
