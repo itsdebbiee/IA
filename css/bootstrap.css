@@ -25,6 +25,9 @@ lol k
     display: block;
 }
 
+
+
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5869,10 +5872,17 @@ button.close {
 }
 .special{
   color:black;
+<<<<<<< HEAD
 }
 .special h2:hover{
   color: gray;
 }
+=======
+}
+.special h2:hover{
+  color: gray;
+}
+>>>>>>> bfb86c8a6337cbfb0dd74834b5443db7aacca483
 .special h4{
   font-weight: 16px;
   font-family: sans-serif;
