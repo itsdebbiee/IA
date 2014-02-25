@@ -80,6 +80,11 @@ p {
     float:right;
 }
 
+.centered {
+margin: 0 auto;
+    display:block;
+}
+
 /* 
 2. Navigation 
 ================================= */
@@ -612,32 +617,13 @@ position: relative;
     margin-bottom: 20px;
 }
 
-
-.image-caption {
-background-color: #E5E4E2;
-color: inherit;
-text-shadow: none;
-width: 100%;
-position: static;
-text-align: left;
-padding: 10px;
-
-@media (min-width: 992px)
-.image-caption.overlay {
-opacity: 0;
-filter: alpha(opacity=0);
-transition: all .3s linear;
-position: absolute;
-bottom: 0;
-left: 0;
-color: #fbfbf9;
-background-color: rgba(0,0,0,0.6);
-}
-
 .current {
     text-decoration: underline;
 }
-<<<<<<< HEAD
+
+.underline {
+    text-decoration: underline;
+}
 
 /*
 Schools 
@@ -669,4 +655,20 @@ Schools
     height: 30px;
     width: 100px;
     padding: 5px;
+    display: block;
+}
+
+
+/* Nursing Page */
+.nursing-header {
+    width: 100%;
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #0032e2;
+    border-bottom: 1px solid #001663;
+    padding: 2px 0 18px;
+}
+
+.nursing-header img {
+    display: block;
+    margin: 0 auto;
 }
