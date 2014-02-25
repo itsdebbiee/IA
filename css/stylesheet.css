@@ -256,14 +256,7 @@ Home Content
     overflow: auto;
     padding: 10px;
 
-<<<<<<< HEAD
 }
-=======
-.ThreeSlopes h2 {
-    margin-left: 10px;
-}
-
->>>>>>> 7293f55e44033e6d2a7552db8a99598a74f992e7
 .ThreeSlopes h4{
     color: black;
     font-size: 25px;
@@ -306,7 +299,7 @@ Home Content
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .ThreeSlopes a:hover{
-    color: #a8a8a8;
+    color: #FFB124;
     text-decoration: none;
 }
 #SlopeOne {
@@ -477,9 +470,13 @@ header img {
 
 .navbar-form-sub {
     padding-top:0px;
-    margin-top: -3px;
+    margin-top: -10px;
 }
 
+.search-bar{
+    padding-top: 0px;
+    margin-top:-30px;
+}
 .navbar-form .btn-sub {
     height: 25px;
     width: 20px;
@@ -523,7 +520,7 @@ body h4 a:hover {
     padding-top: 15px;
 }
 
-.ThreeSlopes h4 {
+#ThreeSlopes h4 {
     font-family: Bodoni, Georgia, serif;
 }
 
@@ -616,7 +613,6 @@ position: relative;
 }
 
 
-
 .image-caption {
 background-color: #E5E4E2;
 color: inherit;
@@ -625,9 +621,6 @@ width: 100%;
 position: static;
 text-align: left;
 padding: 10px;
-
-}
-
 
 @media (min-width: 992px)
 .image-caption.overlay {
@@ -641,94 +634,10 @@ color: #fbfbf9;
 background-color: rgba(0,0,0,0.6);
 }
 
-
-
-.container .row a{
-    color:#cc0000;
-    text-decoration:none;
-    color: black;
-}
-.container .row h4{
-  font-size: 17px;
-  font-weight: bold;
-}
-.container .row ul li{
-  font-size: 15px;
-  font-weight: 200;
-}
-.container .row p{
-  font-size: 15px;
-  font-weight: 200;
-}
-.underline {
-
+.current {
     text-decoration: underline;
 }
 .row{
   margin-top: 5px;
 }
-
-
-.panel button, .panel .btn {
-    border-radius: 2px;
-    height: 30px;
-    width: 100px;
-    padding: 5px;
-    display: block;
-}
-
-
-/* Nursing Page */
-.nursing-header {
-    width: 100%;
-    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
-    border-top: 1px solid #0032e2;
-    border-bottom: 1px solid #001663;
-    padding: 2px 0 18px;
-}
-
-.nursing-header img {
-    display: block;
-    margin: 0 auto;
-}
-
-.nursing-nav {
-    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
-    border-top: 1px solid #002dc9;
-    border-bottom: 1px solid #001663;
-}
-
-.nursing-nav ul {
-    margin: 8px auto;
-    back
-}
-
-.nursing-nav ul li {
-    display:inline;    
-    list-style-type: none;
-    color: #e8e8e8;
-    margin: 0px 30px;
-    font-family: Lato, Arial, sans-serif;
-}
-
-.go-home {
-    background: -webkit-linear-gradient(top, #333 0%, #2b2b2b 100%);
-    border-bottom: 1px solid #0e0e0e;
-    white-space: nowrap;
-    height: 32px;
-    position: relative;
-}
-
-.icon-logo {
-    height: 20px;
-    width: 20px;
-}
-
-.go-home p {
-    display: inline-block;
-    color: #e8e8e8;
-    padding-top: 7px;
-}
-
-
 
