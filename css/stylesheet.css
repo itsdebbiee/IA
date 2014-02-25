@@ -324,13 +324,9 @@ Home Content
     font-size: 12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-<<<<<<< HEAD
+
 .ThreeSlopes a:hover{
     color: #FFB124;
-=======
-#ThreeSlopes a:hover{
-    color: #a8a8a8;
->>>>>>> b12e71930e63ee398a6c691298ed4d8caa087252
     text-decoration: none;
 }
 #SlopeOne {
@@ -734,4 +730,30 @@ Schools
 .nursing-header img {
     display: block;
     margin: 0 auto;
+
 }
+
+
+}
+
+.nursing-nav {
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #002dc9;
+    border-bottom: 1px solid #001663;
+}
+
+.nursing-nav ul {
+    margin: 8px auto;
+    back
+}
+
+.nursing-nav ul li {
+    display:inline;    
+    list-style-type: none;
+    color: #e8e8e8;
+    margin: 0px 30px;
+    font-family: Lato, Arial, sans-serif;
+}
+
+
+>>>>>>> 88dfdaeab2e129ec30a0db4c43ec89d3aa8d12d9
