@@ -5861,4 +5861,11 @@ button.close {
 .home-btn{
     float: right;
 }
+.home-footer{
+    color:white;
+}
+.schools-footer{
+  -webkit-column-count:3;
+
+}
 /*# sourceMappingURL=bootstrap.css.map */
