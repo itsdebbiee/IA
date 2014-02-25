@@ -255,15 +255,12 @@ Home Content
 .ThreeSlopes {
     overflow: auto;
     padding: 10px;
-
-<<<<<<< HEAD
 }
-=======
+
 .ThreeSlopes h2 {
     margin-left: 10px;
 }
 
->>>>>>> 7293f55e44033e6d2a7552db8a99598a74f992e7
 .ThreeSlopes h4{
     color: black;
     font-size: 25px;
@@ -627,21 +624,6 @@ text-align: left;
 padding: 10px;
 
 }
-
-
-@media (min-width: 992px)
-.image-caption.overlay {
-opacity: 0;
-filter: alpha(opacity=0);
-transition: all .3s linear;
-position: absolute;
-bottom: 0;
-left: 0;
-color: #fbfbf9;
-background-color: rgba(0,0,0,0.6);
-}
-
-
 
 .container .row a{
     color:#cc0000;
