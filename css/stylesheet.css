@@ -14,6 +14,10 @@ TABLE OF CONTENTS
   padding-top: 150px;
 }
 
+.small {
+    font-size: 12px;
+}
+
 html, body {
   margin:0;
   height: 100%;
@@ -57,6 +61,10 @@ a:hover {
 @font-face {
     font-family: Bodoni;
     src: url(bodoni.ttf);
+}
+
+.bodoni {
+    font-family: Bodoni;
 }
 
 p {
@@ -263,9 +271,14 @@ Home Content
 
 #ThreeSlopes {
     overflow: auto;
-    padding: 10px;
+    padding-top: 10px;
 
 }
+
+#ThreeSlopes h2 {
+    margin-left: 10px;
+}
+
 #ThreeSlopes h4{
     color: black;
     font-size: 25px;
@@ -308,7 +321,7 @@ Home Content
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #ThreeSlopes a:hover{
-    color: #FFB124;
+    color: #a8a8a8;
     text-decoration: none;
 }
 #SlopeOne {
@@ -366,12 +379,13 @@ Footer
 
 } 
 
+/*Opera Fix thanks to Maleika (Kohoutec)*/
 body:before {
   content:"";
   height:100%;
   float:left;
   width:0;
-  margin-top:-32767px;
+  margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
 
 .footer-img {
@@ -431,6 +445,15 @@ header img {
 
 .carousel-home-height {
     height: 345px;
+}
+
+.caption-p {
+    bottom: 65px;
+    font-size: 20px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
 }
 
 .navbar-sub #dropDownMenu ul li {
@@ -519,6 +542,11 @@ body h4 a:hover {
     color: #625D5D;
 }
 
+.home-pic {
+    width: 100%;
+    height: 100px;
+}
+
 /* Research Page */
 
 .headline-content {
@@ -561,6 +589,8 @@ body h4 a:hover {
     font-style: italic;
 }
 
+
+
 footer {
 clear: both;
 margin: 0 auto;
@@ -593,6 +623,10 @@ footer a{
     color:blue;
 }
 
+.footer-space {
+    margin-top: 10px;
+}
+
 .copy {
     font-size: 12px;
 }
@@ -619,6 +653,20 @@ position: relative;
 
 .current {
     text-decoration: underline;
+<<<<<<< HEAD
+}
+
+.row img{
+  padding-top: 20px;
+}
+
+special h4{
+    font-size: 12px;
+    
+}
+a{
+  text-decoration: none;
+=======
 }
 
 .underline {
@@ -691,3 +739,4 @@ Schools
     margin: 0px 30px;
     font-family: Lato, Arial, sans-serif;
 }
+
