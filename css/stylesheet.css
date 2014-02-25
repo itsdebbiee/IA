@@ -646,4 +646,14 @@ position: relative;
     text-decoration: underline;
 }
 
+.row img{
+  padding-top: 20px;
+}
 
+special h4{
+    font-size: 12px;
+    
+}
+a{
+  text-decoration: none;
+}
