@@ -255,12 +255,17 @@ Home Content
 .ThreeSlopes {
     overflow: auto;
     padding: 10px;
+<<<<<<< HEAD
 }
 
 .ThreeSlopes h2 {
     margin-left: 10px;
 }
 
+=======
+
+}
+>>>>>>> a3cc6227591d3bcd07019252f9e6f19523c8a839
 .ThreeSlopes h4{
     color: black;
     font-size: 25px;
@@ -303,7 +308,7 @@ Home Content
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .ThreeSlopes a:hover{
-    color: #a8a8a8;
+    color: #FFB124;
     text-decoration: none;
 }
 #SlopeOne {
@@ -474,9 +479,13 @@ header img {
 
 .navbar-form-sub {
     padding-top:0px;
-    margin-top: -3px;
+    margin-top: -10px;
 }
 
+.search-bar{
+    padding-top: 0px;
+    margin-top:-30px;
+}
 .navbar-form .btn-sub {
     height: 25px;
     width: 20px;
@@ -520,7 +529,7 @@ body h4 a:hover {
     padding-top: 15px;
 }
 
-.ThreeSlopes h4 {
+#ThreeSlopes h4 {
     font-family: Bodoni, Georgia, serif;
 }
 
@@ -613,7 +622,6 @@ position: relative;
 }
 
 
-
 .image-caption {
 background-color: #E5E4E2;
 color: inherit;
@@ -623,6 +631,7 @@ position: static;
 text-align: left;
 padding: 10px;
 
+<<<<<<< HEAD
 }
 
 .container .row a{
@@ -642,13 +651,15 @@ padding: 10px;
   font-size: 15px;
   font-weight: 200;
 }
-.underline {
 
+
+.current {
     text-decoration: underline;
 }
 .row{
   margin-top: 5px;
 }
+
 
 
 .panel button, .panel .btn {
@@ -735,5 +746,6 @@ padding: 10px;
 .nurse-slide {
     margin-top: 20px;
 }
+
 
 

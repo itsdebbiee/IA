@@ -5868,7 +5868,21 @@ button.close {
     color:white;
 }
 .schools-footer{
-  -webkit-column-count:3;
-
+  margin-top: 5px;
 }
+.special{
+  color:black;
+}
+.special h2:hover{
+  color: gray;
+}
+.special h4{
+  font-weight: 16px;
+  font-family: sans-serif;
+}
+.special p{
+  font-weight: 12px;
+  font-family: sans-serif;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
