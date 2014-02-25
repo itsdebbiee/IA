@@ -671,8 +671,6 @@ background-color: rgba(0,0,0,0.6);
   font-weight: 200;
 }
 
-
->>>>>>> bfb86c8a6337cbfb0dd74834b5443db7aacca483
 .current {
     text-decoration: underline;
 }
@@ -680,8 +678,7 @@ background-color: rgba(0,0,0,0.6);
   margin-top: 5px;
 }
 
-<<<<<<< HEAD
-=======
+
 
 
 .panel button, .panel .btn {
@@ -769,6 +766,6 @@ background-color: rgba(0,0,0,0.6);
     margin-top: 20px;
 }
 
-
-
->>>>>>> bfb86c8a6337cbfb0dd74834b5443db7aacca483
+.centered {
+    text-align: center;
+}
