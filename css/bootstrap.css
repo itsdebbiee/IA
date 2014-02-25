@@ -11,6 +11,20 @@ lol k
   text-decoration: underline;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.btn-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5834,7 +5848,10 @@ button.close {
   list-style: square;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 616eeed5f4af6517a856a3232dea8629bf1621be
 .special a{
   color:black;
 }

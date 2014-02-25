@@ -31,6 +31,10 @@ html, body {
 	position: relative;
 }
 
+.center {
+    text-align: center;
+}
+
 a {
 	color: #fff;
 }
@@ -82,6 +86,11 @@ p {
 
 .right {
     float:right;
+}
+
+.centered {
+margin: 0 auto;
+    display:block;
 }
 
 /* 
@@ -362,7 +371,7 @@ Footer
 #footer {
   position: relative;
   margin-top: -180px; /* negative value of footer height */
-  height: 180px;
+  height: 190px;
   clear:both;
   left:0px;
   bottom: 0px;
@@ -644,6 +653,7 @@ position: relative;
 
 .current {
     text-decoration: underline;
+<<<<<<< HEAD
 }
 
 .row img{
@@ -656,4 +666,58 @@ special h4{
 }
 a{
   text-decoration: none;
+=======
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*
+Schools 
+*/
+.panel, .panel-default {
+    border-radius: 2px;
+}
+
+.blue {
+    color: #7e7e7e;
+}
+
+.column-space {
+    padding-right: 5px;
+}
+
+.college-panel {
+    padding: 8px;
+}
+
+.btn-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.panel button, .panel .btn {
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    display: block;
+}
+
+
+/* Nursing Page */
+.nursing-header {
+    width: 100%;
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #0032e2;
+    border-bottom: 1px solid #001663;
+    padding: 2px 0 18px;
+}
+
+.nursing-header img {
+    display: block;
+    margin: 0 auto;
+>>>>>>> 4daff6251f31c4b2575b30db52dd9b129bcf3163
 }
