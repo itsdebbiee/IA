@@ -672,3 +672,22 @@ Schools
     display: block;
     margin: 0 auto;
 }
+
+.nursing-nav {
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #002dc9;
+    border-bottom: 1px solid #001663;
+}
+
+.nursing-nav ul {
+    margin: 8px auto;
+    back
+}
+
+.nursing-nav ul li {
+    display:inline;    
+    list-style-type: none;
+    color: #e8e8e8;
+    margin: 0px 30px;
+    font-family: Lato, Arial, sans-serif;
+}
