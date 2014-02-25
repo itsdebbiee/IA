@@ -743,4 +743,23 @@ Schools
     font-family: Lato, Arial, sans-serif;
 }
 
+.go-home {
+    background: -webkit-linear-gradient(top, #333 0%, #2b2b2b 100%);
+    border-bottom: 1px solid #0e0e0e;
+    white-space: nowrap;
+    height: 32px;
+    position: relative;
+}
+
+.icon-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.go-home p {
+    display: inline-block;
+    color: #e8e8e8;
+    padding-top: 7px;
+}
+
 
