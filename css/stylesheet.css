@@ -31,6 +31,10 @@ html, body {
 	position: relative;
 }
 
+.center {
+    text-align: center;
+}
+
 a {
 	color: #fff;
 }
@@ -362,7 +366,7 @@ Footer
 #footer {
   position: relative;
   margin-top: -180px; /* negative value of footer height */
-  height: 180px;
+  height: 190px;
   clear:both;
   left:0px;
   bottom: 0px;
@@ -646,4 +650,34 @@ position: relative;
     text-decoration: underline;
 }
 
+/*
+Schools 
+*/
+.panel, .panel-default {
+    border-radius: 2px;
+}
 
+.blue {
+    color: #7e7e7e;
+}
+
+.column-space {
+    padding-right: 5px;
+}
+
+.college-panel {
+    padding: 8px;
+}
+
+.btn-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.panel button, .panel .btn {
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+}
