@@ -5848,15 +5848,17 @@ button.close {
   list-style: square;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 616eeed5f4af6517a856a3232dea8629bf1621be
 .special a{
   color:black;
 }
 .special h4{
   font-size: 15px;
     font-weight: bold;
+}
+.more {
+  float: right;
+}
+.home-btn{
+    float: right;
 }
 /*# sourceMappingURL=bootstrap.css.map */

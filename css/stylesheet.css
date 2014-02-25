@@ -653,7 +653,6 @@ position: relative;
 
 .current {
     text-decoration: underline;
-<<<<<<< HEAD
 }
 
 .row img{
@@ -669,6 +668,18 @@ special h4{
     color:#cc0000;
     text-decoration:none;
     color: black;
+}
+.container .row h4{
+  font-size: 17px;
+  font-weight: bold;
+}
+.container .row ul li{
+  font-size: 15px;
+  font-weight: 200;
+}
+.container .row p{
+  font-size: 15px;
+  font-weight: 200;
 }
 .underline {
     text-decoration: underline;
@@ -721,7 +732,6 @@ Schools
 .nursing-header img {
     display: block;
     margin: 0 auto;
-
 }
 
 .nursing-nav {
