@@ -27,6 +27,87 @@ lol k
 
 
 
+/* Nursing Page */
+.nursing-header {
+    width: 100%;
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #0032e2;
+    border-bottom: 1px solid #001663;
+    padding: 2px 0 18px;
+}
+
+.nursing-header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.nursing-nav {
+    background: linear-gradient(to bottom, #0027Af 0%, #001c7c 100%);
+    border-top: 1px solid #002dc9;
+    border-bottom: 1px solid #001663;
+}
+
+.nursing-nav ul {
+    margin: 8px auto;
+    back
+}
+
+.nursing-nav ul li {
+    display:inline;    
+    list-style-type: none;
+    color: #e8e8e8;
+    margin: 0px 30px;
+    font-family: Lato, Arial, sans-serif;
+}
+
+.go-home {
+    background: -webkit-linear-gradient(top, #333 0%, #2b2b2b 100%);
+    border-bottom: 1px solid #0e0e0e;
+    white-space: nowrap;
+    height: 32px;
+    position: relative;
+}
+
+.icon-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.go-home p {
+    display: inline-block;
+    color: #e8e8e8;
+    padding-top: 7px;
+}
+
+.form-right {
+    display: inline-block;
+    margin-left: 520px;
+}
+
+.go-home .form-group .form-control {
+    height: 20px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.go-home button {
+    height: 20px;
+    width: 20px;
+}
+
+.go-home .btn {
+    padding: 0px;
+}
+
+.nurse-slide {
+    margin-top: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
