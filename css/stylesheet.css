@@ -252,12 +252,12 @@ p {
 Home Content 
 ================================= */
 
-#ThreeSlopes {
+.ThreeSlopes {
     overflow: auto;
     padding: 10px;
 
 }
-#ThreeSlopes h4{
+.ThreeSlopes h4{
     color: black;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,7 +268,7 @@ Home Content
     padding-bottom: 5px;
     padding-left: 10px;
 }
-#ThreeSlopes h5
+.ThreeSlopes h5
 {
     color: black;
     font-size: 20px;
@@ -280,7 +280,7 @@ Home Content
     padding-bottom: 5px;
     padding-left: 10px; 
 }
-#ThreeSlopes p{
+.ThreeSlopes p{
     color: black;
     padding-top: 5px;
     padding-right: 10px;
@@ -288,17 +288,17 @@ Home Content
     padding-left: 10px;
     margin: 0px;
 }
-#ThreeSlopes img{
+.ThreeSlopes img{
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
-#ThreeSlopes a{
+.ThreeSlopes a{
     color: black;
     font-size: 12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-#ThreeSlopes a:hover{
+.ThreeSlopes a:hover{
     color: #FFB124;
     text-decoration: none;
 }
@@ -470,9 +470,13 @@ header img {
 
 .navbar-form-sub {
     padding-top:0px;
-    margin-top: -3px;
+    margin-top: -10px;
 }
 
+.search-bar{
+    padding-top: 0px;
+    margin-top:-30px;
+}
 .navbar-form .btn-sub {
     height: 25px;
     width: 20px;
